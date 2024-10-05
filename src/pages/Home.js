@@ -5,8 +5,14 @@ export default function Accueil() {
   return (
     <div style={styles.container}>
       <header style={styles.header}>
-        <h1 style={styles.title}>Découvrez la Ziboulette</h1>
-        <h2 style={styles.subtitle}>La moto qui allie puissance et élégance</h2>
+        <h1 style={styles.title}>
+          Bienvenue sur le site officiel de la Ziboulette – Moto Hybride
+          Révolutionnaire
+        </h1>
+        <p style={styles.subtitle}>
+          Découvrez les dernières nouveautés sur la moto Ziboulette,
+          l'innovation qui change le monde des deux roues.
+        </p>
       </header>
       <section style={styles.section}>
         <p style={styles.paragraph}>
@@ -39,8 +45,8 @@ export default function Accueil() {
           <li>Trottinette électrique</li>
         </ul>
         <p style={styles.paragraph}>
-          Découvrez la <strong>moto Ziboulette</strong>, un véhicule à deux roues
-          unique qui fusionne les avantages de la moto et du scooter pour
+          Découvrez la <strong>moto Ziboulette</strong>, un véhicule à deux
+          roues unique qui fusionne les avantages de la moto et du scooter pour
           offrir une expérience de conduite inégalée. Conçue pour répondre aux
           attentes des passionnés de la route et des amateurs de mobilité
           urbaine, la Ziboulette est un modèle qui allie performance, praticité

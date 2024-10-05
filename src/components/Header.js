@@ -17,13 +17,8 @@ export default function Header() {
             </a>
           </li>
           <li style={styles.navItem}>
-            <a href="#models" style={styles.navLink}>
-              Modèles
-            </a>
-          </li>
-          <li style={styles.navItem}>
-            <a href="#contact" style={styles.navLink}>
-              Contact
+            <a href="/ziboulette" style={styles.navLink}>
+              La ziboulette
             </a>
           </li>
         </ul>
