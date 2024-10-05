@@ -34,8 +34,9 @@ export default function Header() {
 
 const styles = {
   header: {
-    backgroundColor: "#333",
+    backgroundColor: "#2E86C1", // Couleur plus moderne
     padding: "10px 20px",
+    boxShadow: "0 2px 8px rgba(0, 0, 0, 0.2)", // Ombre pour le relief
   },
   nav: {
     display: "flex",
@@ -44,8 +45,9 @@ const styles = {
   },
   logo: {
     color: "#fff",
-    fontSize: "24px",
+    fontSize: "28px", // Augmentation de la taille du logo
     fontWeight: "bold",
+    letterSpacing: "1px", // Espacement des lettres pour un look plus moderne
   },
   navList: {
     display: "flex",
@@ -54,11 +56,15 @@ const styles = {
     padding: 0,
   },
   navItem: {
-    marginLeft: "20px",
+    marginLeft: "30px", // Espace plus grand entre les éléments
   },
   navLink: {
     color: "#fff",
     textDecoration: "none",
-    fontSize: "16px",
+    fontSize: "18px", // Augmentation de la taille de la police
+    transition: "color 0.3s", // Transition pour le hover
+  },
+  navLinkHover: {
+    color: "#f1c40f", // Couleur lors du survol
   },
 };

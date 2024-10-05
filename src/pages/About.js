@@ -70,11 +70,10 @@ export default function About() {
           ajusta son moteur, créa un système de freinage révolutionnaire et
           introduisit des roues à faible frottement pour améliorer la vitesse
           tout en gardant le contrôle. La presse locale s'empara de l’histoire,
-          et rapidement, la
-          <Link to="/">Ziboulette</Link> devint un phénomène national.
-          Jean-Michel, avec son équipe, la présenta au Salon International de la
-          Moto, où elle reçut des acclamations de la part de professionnels du
-          monde entier.
+          et rapidement, la <Link to="/">Ziboulette</Link> devint un phénomène
+          national. Jean-Michel, avec son équipe, la présenta au Salon
+          International de la Moto, où elle reçut des acclamations de la part
+          de professionnels du monde entier.
         </p>
         <p>
           Ce fut à ce moment-là que les grands constructeurs de motos prirent
