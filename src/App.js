@@ -4,6 +4,7 @@ import Accueil from "./pages/Home";
 import Ziboulette from "./pages/Ziboulette";
 import Header from "./components/Header";
 import About from "./pages/About";
+import Footer from "./components/Footer";
 
 function App() {
   const router = createBrowserRouter([
@@ -16,6 +17,7 @@ function App() {
     <div>
       <Header />
       <RouterProvider router={router} />
+      <Footer />
     </div>
   );
 }
