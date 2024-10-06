@@ -97,8 +97,6 @@ export default function Accueil() {
         <Link to="/ziboulette">
           <button style={styles.button}>Commandez votre Ziboulette !</button>
         </Link>
-        <p>Découvrez aussi notre boutique d'équipement 2 roues :</p>
-        <button style={styles.button}>Le Ziboulette store</button>
         <p>En apprendre plus sur </p>
         <Link to="/about">
           <button style={styles.button}>L'histoire de la Ziboulette</button>
